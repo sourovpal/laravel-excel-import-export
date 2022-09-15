@@ -4,7 +4,7 @@ use App\Models\DataPengirimanPaket;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 use Maatwebsite\Excel\Concerns\WithStartRow;
-class UsersImport implements ToModel
+class UsersImport implements ToModel, WithStartRow
 {
     
     
